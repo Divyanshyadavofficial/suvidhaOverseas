@@ -33,109 +33,21 @@
     font-size: 30px;
     color: #fff;
 }
-
-   </style>
-   <body id="top">
-      <style>
-li a, .dropbtn {
-  display: inline-block;
-
-  text-align: center;
-
-  text-decoration: none;
-}
-
-
-li.dropdown {
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 200px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {background-color: #f1f1f1;}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-.dropdown-content a img{
-   float: left;
-   margin: -5px 10px;
-}
-.dropdown-content a:hover{
-   color:#1ab79d;
-}
 </style>
-  </head>
   <body>
-    <header class="header" data-header>
-      <div class="container">
-         <a href="https://suvidhaoverseas.org/" class="logo">
-         <img src="./assets/images/logo.png" width="70" height="50" alt="Suvidha logo">
-         </a>
-         <nav class="navbar" data-navbar>
-            <div class="wrapper">
-               <a href="https://suvidhaoverseas.org/" class="logo">
-               <img src="./assets/images/logo.png" width="162" height="50" alt="Suvidha logo">
-               </a>
-               <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
-                  <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
-               </button>
-            </div>
-            <ul class="navbar-list">
-               <li class="navbar-item">
-                  <a href="https://suvidhaoverseas.org/" class="navbar-link" data-nav-link>Home</a>
-               </li>
-               <li class="navbar-item">
-                  <a href="#" class="navbar-link" data-nav-link>About Us</a>
-               </li>
-               <li class="navbar-item dropdown">
-                   <a href="javascript:void(0)" class="navbar-link dropbtn">Destinations</a>
-       <div class="dropdown-content">
-         <a href="#"><img src="" width="40" height="20">USA</a>
-         <a href=""><img src="" width="40" height="20">Germany</a>
-         <a href=""><img src="" width="40" height="20">England</a>
-         <a href=""><img src="" width="40" height="20">Canada</a>
-         <a href=""><img src="" width="40" height="20">Australia</a>
-       </div>
-               </li>
-               <li class="navbar-item">
-                  <a href="" class="navbar-link" data-nav-link>Exams</a>
-               </li>
-               <li class="navbar-item">
-                  <a href="" class="navbar-link" data-nav-link>Services </a>
-               </li>
-               <li class="navbar-item">
-                  <a href="" class="navbar-link" data-nav-link>Contact </a>
-               </li>
-            </ul>
-         </nav>
-         <div class="header-actions">
-            <a href="https://forms.gle/2wMJbf4Eifi3etMS8" target="_blank" class="btn has-before">
-               <span class="span">Sign Up for Free</span>
-               <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-            </a>
-            <button class="header-action-btn" aria-label="open menu" data-nav-toggler>
-               <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
-            </button>
-         </div>
-         <div class="overlay-nav" data-nav-toggler data-overlay></div>
+    <div class='navbar'>
+      <div class="right">
+          <img class='navbar-logo' src="./assets/images/logo.png" alt="" />
       </div>
-   </header>   
+      <div class="left">
+          <button class='btn-1'>Home</button>
+          <button class='btn-2'>About Us</button>
+          <a href='' class='btn-3'>Destinations</a>
+          <a class='btn-4'>Exams</a>
+          <a class='btn-4'>Services</a>
+          <a class='btn-5'>Contact</a>
+      </div>
+    </div>
     <div>
       <div
         class="main d-flex flex-column align-items-center justify-content-center"
@@ -349,6 +261,12 @@ li.dropdown {
         <div class="swiper-button-prev swiper-navBtn"></div>
         <div class="swiper-pagination"></div>
       </div>
+      <div class="testimonials m-3 p-3 d-flex flex-column justify-content-center align-items-center"> 
+        <h3>Testimonials</h3>
+        <div>
+          <p>testimonials Here</p>
+        </div>
+      </div>
       <div class="tracker">
         <div class="slider-infinite">
           <div class="slide-track">
@@ -409,11 +327,6 @@ li.dropdown {
           </div>
       </div>
     </div>
-
-
-
-    </div>
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
