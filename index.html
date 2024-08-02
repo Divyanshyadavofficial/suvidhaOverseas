@@ -10,6 +10,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <title>Document</title>
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
   <body>
@@ -27,23 +28,28 @@
       </div>
     </div>
     <div>
-      <div
-        class="main d-flex flex-column align-items-center justify-content-center"
-      >
-        <h1 class="font-weight-bold">
-          Launch Your<br /><span class="text-danger">Overseas Education</span
-          ><br />Journey: Get Started with<br />
-          Free consultation
-        </h1>
-        <p class="mt-3">
-          Dream,Explore,Achieve:Your Journey to Global<br />
-          Education Begins with Us
-        </p>
-        <button class="btn btn-primary mt-3">
-          Start Your Journey For Free
-        </button>
+      <div class="main d-flex justify-content-center align-items-center">
+        <div
+          class="main d-flex flex-column align-items-center justify-content-center"
+        >
+          <h1 class="main-heading font-weight-bold">
+            Launch Your<br /><span class="text-danger">Overseas Education</span
+            ><br />Journey: Get Started with<br />
+            Free consultation
+          </h1>
+          <p class="mt-3">
+            Dream,Explore,Achieve:Your Journey to Global<br />
+            Education Begins with Us
+          </p>
+          <button class="start-btn btn btn-primary ">
+            Start Your Journey For Free
+          </button>
+        </div>
+        <div class="hero-img">
+          <img src="./assets/images/side.png" alt="">
+        </div>
       </div>
-      <div class="d-flex flex-column align-items-center pt-5">
+      <div class="d-flex flex-column align-items-center pt-5 m-5">
         <h2>Why Choose Suvidha?</h2>
         <p>
           Cultivating Dreams,Empowering Futures: Your Trustworthy Partner in
@@ -78,19 +84,19 @@
       <div
         class="services d-flex flex-column justify-content-center align-items-center mt-5"
       >
-        <p class="text-danger mb-5">OUR SERVICES</p>
-        <h3>Services We are Offering.</h3>
+        <h2 class=" mb-5">OUR SERVICES</h2>
+        <h3><span style="color:#7FA1C3">Services</span> We are Offering.</h3>
         <p class="pt-2 mt-3">
           "At Suvidha Overseas, we offer a comprehensive range of free services
           to ensure your smooth transition to international education"
         </p>
       </div>
-      <div class="row justify-content-md-center">
+      <div class="services row justify-content-md-center">
         <div class="col-md-8 col-md-auto">
           <div class="row">
             <div class="col-md-4 table-col">
               <div class="price">
-                <h5>IELTS/Duolingo<br />Tutoring</h5>
+                <h2>IELTS/Duolingo<br />Tutoring</h2>
                 <p class="text-center">
                   Expert assistance to help<br />
                   you excel in language<br />
@@ -100,7 +106,7 @@
             </div>
             <div class="col-md-4 table-col">
               <div class="price featured">
-                <h5>SOP/LOR Writing</h5>
+                <h2>SOP/LOR Writing</h2>
                 <p class="text-center">
                   Tailored support in crafting <br />
                   compelling statements of <br />
@@ -111,7 +117,7 @@
             </div>
             <div class="col-md-4 table-col">
               <div class="price">
-                <h5>University Selection Guidance</h5>
+                <h2>University Selection Guidance</h2>
                 <p class="text-center">
                   Personalized advice to help <br />
                   you choose the right <br />
@@ -119,7 +125,7 @@
                 </p>
               </div>
             </div>
-            <button class="btn btn-primary mt-5 col-2 mx-auto mb-5">see more</button>
+            <button class="see-btn btn btn-primary mt-5 col-2 mx-auto mb-5 p-2">see more</button>
           </div>
         </div>
       
@@ -240,10 +246,30 @@
         <div class="swiper-pagination"></div>
       </div>
       <div class="testimonials m-3 p-3 d-flex flex-column justify-content-center align-items-center"> 
-        <h3>Testimonials</h3>
-        <div>
-          <p>testimonials Here</p>
+        <div class="wrapper-testimonials">
+          <h1>What Our Students Say</h1>
+          <h5>"Discover the experiences of students who studied abroad with Suvidha Overseas"</h5>
+          <div class="cards-testimonials">
+            <div class="card-testimonial">
+              <img src="" alt="">
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita repudiandae unde voluptatibus sint. Minima iste odit saepe quasi voluptatem dolore accusamus incidunt illum? Unde labore deleniti at libero minus? Qui.</p>
+              <h2>Sandra Bullock</h2>
+              <h4>student</h4>
+              <i class="fa fa-quote-left"></i>
+            </div>
+            <div class="card-testimonial">
+              <img src="" alt="">
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita repudiandae unde voluptatibus sint. Minima iste odit saepe quasi voluptatem dolore accusamus incidunt illum? Unde labore deleniti at libero minus? Qui.</p>
+              <h2>John smith</h2>
+              <h4>student</h4>
+              <i class="fa fa-quote-left"></i>
+            </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="d-flex justify-content-center align-items-center text-center m-5">
+        <h1>List of Universities</h1>
       </div>
       <div class="tracker">
         <div class="slider-infinite">
@@ -304,6 +330,65 @@
             </div>
           </div>
       </div>
+      <footer class="fotter">
+      <div class="fotter-first">
+        <div class="links">
+          <h2 >Important Links</h2>
+          <p>about us</p>
+          <p>work with us</p>
+        </div>
+        <div class="links">
+          <h2>Study Abroad</h2>
+          <p>Study in USA</p>
+          <p>Study in Germany</p>
+          <p>Study in England</p>
+          <p>Study in Canada</p>
+          <p>Study in Australia</p>
+        </div>
+        <div class="links">
+          <h2>Test Prep</h2>
+          <p>IELTS</p>
+          <p>DUOLINGO</p>
+          <p>GRE</p>
+          <p>GMAT</p>
+          <p>TOEFL</p>
+          <p>SAT</p>
+          <p>PTE</p>
+        </div>
+        <div class="links">
+          <h2>Offerings</h2>
+          <p>Loans</p>
+          <p>Scholarships</p>
+        </div>
+        <div class="links">
+          <h2>Other Links</h2>
+          <p>Privacy Policy</p>
+        </div>
+        <div class="links">
+          <h2>Contacts</h2>
+          <p>Contact Us</p>
+          <p>FAQ's</p>
+        </div>
+      </div>
+      <div class="fotter-second">
+        <div class="links">
+          <h2>Hyderabad Headquater</h2>
+          <p>Vazhra Nirman Pushpak, C Block 701, 500090, Hyderabad</p>
+        </div>
+        <div class="links">
+          <h2>Nagpur Headquarter</h2>
+          <p>Suvidha Overseas, Annamod, Santnagar, Khaperkheda - Nagpur, Maharashtra 441102</p>
+        </div>
+      </div>
+      <div class="fotter-third">
+        <a href="">insta</a>
+        <a href="">facebook</a>
+        <a href="">linkedin</a>
+        <a href="">X</a>
+      </div>
+      <p class="fotter-third">copyright @2024</p>
+
+      </footer>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
